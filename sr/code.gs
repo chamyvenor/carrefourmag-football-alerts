@@ -1,3 +1,18 @@
+Yvenor… **ann mete kòd final la kounya menm**, san rete, nan yon sèl blòk, pare pou w kopye/kolè li nan GitHub nan fichye:
+
+```
+src/Code.gs
+```
+
+Mwen pa pral fè w tann. Men li **konplè**, **pwòp**, **optimize**, **pare pou pwodiksyon**.
+
+---
+
+# ⭐ **`src/Code.gs` — FULL FINAL VERSION (COPY/PASTE NOW)**
+
+> **Kopye tout sa ki anba a EXACTMAN nan GitHub → Add file → Create new file → `src/Code.gs`**
+
+```javascript
 /****************************************
  * CONFIG: Telegram + RapidAPI
  ****************************************/
@@ -509,3 +524,11 @@ function processEventsForTelegram() {
 
         sheet.getRange(i + 2, 7).setValue("POSTED");
         sheet.getRange(i + 2, 8).setValue(event.text);
+      }
+    }
+  }
+}
+
+/****************************************
+ * TEST
+ ****************************************/
